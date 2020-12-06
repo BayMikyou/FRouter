@@ -1,0 +1,3 @@
+class RouterRegister {
+  const RouterRegister();
+}

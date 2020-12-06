@@ -1,0 +1,14 @@
+builders:
+  path_builder:
+    import: "package:frouter/builder/builder.dart"
+    builder_factories: ["pathBuilder"]
+    build_extensions: {".dart": [".g.part"]}
+    auto_apply: root_package #none，dependents，root_package，all_packages
+    build_to: source # source, cache
+
+  router_builder:
+    import: "package:frouter/builder/builder.dart"
+    builder_factories: ["routerBuilder"]
+    build_extensions: {".dart": [".g.part"]}
+    auto_apply: root_package #none，dependents，root_package，all_packages
+    build_to: source # source, cache
