@@ -1,5 +1,5 @@
-class Router {
+class RouterPath {
   final String path;
 
-  const Router({this.path});
+  const RouterPath({this.path});
 }

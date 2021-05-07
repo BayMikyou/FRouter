@@ -3,7 +3,7 @@ import 'package:build/src/builder/build_step.dart';
 import 'package:frouter/annotation/router.dart';
 import 'package:source_gen/source_gen.dart';
 
-class RouterPathGenerator extends GeneratorForAnnotation<Router> {
+class RouterPathGenerator extends GeneratorForAnnotation<RouterPath> {
   static List<String> mImportList = [];
   static Map<String, String> mRouterMap = {};
 
